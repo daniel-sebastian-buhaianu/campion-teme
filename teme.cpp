@@ -14,7 +14,7 @@ int main()
     {
         int i, j;
         fin >> i >> j;
-        elementComun[i][j] = elementComun[i][j] = 1;
+        elementComun[i][j] = elementComun[j][i] = 1;
         nrPerechi--;
     }
     fin.close();
